@@ -1,0 +1,35 @@
+2025-05-21 12:05:30,328 - WDM - INFO - ====== WebDriver manager ======
+2025-05-21 12:05:31,838 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 12:05:31,844 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-05-21 12:05:31,904 - urllib3.connectionpool - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11173
+2025-05-21 12:05:31,921 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 12:05:31,922 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-05-21 12:05:31,942 - urllib3.connectionpool - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11173
+2025-05-21 12:05:31,944 - WDM - INFO - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-21 12:05:31,944 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 12:05:31,945 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-05-21 12:05:31,963 - urllib3.connectionpool - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11173
+2025-05-21 12:05:31,976 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-05-21 12:05:31,993 - urllib3.connectionpool - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/known-good-versions-with-downloads.json HTTP/1.1" 200 92391
+2025-05-21 12:05:32,015 - WDM - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-21 12:05:32,016 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-21 12:05:32,016 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-21 12:05:32,018 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+2025-05-21 12:05:32,164 - urllib3.connectionpool - DEBUG - https://storage.googleapis.com:443 "GET /chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip HTTP/1.1" 200 8824137
+2025-05-21 12:05:32,164 - WDM - INFO - Driver downloading response is 200
+2025-05-21 12:05:32,914 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 12:05:32,915 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-05-21 12:05:32,934 - urllib3.connectionpool - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11173
+2025-05-21 12:05:33,740 - WDM - INFO - Driver has been saved in cache [C:\Users\mppra\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-21 12:05:33,948 - selenium.webdriver.common.service - DEBUG - Started executable: `C:\Users\mppra\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe` in a child process with pid: 8468
+2025-05-21 12:05:34,455 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:54509/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation", "enable-logging"], "prefs": {"profile.default_content_setting_values.images": 2, "profile.managed_default_content_settings.stylesheets": 2}, "extensions": [], "args": ["--start-maximized", "--no-sandbox", "--disable-dev-shm-usage", "--ignore-certificate-errors", "--disable-extensions", "--disable-gpu", "window-size=1200x800", "--disable-background-timer-throttling", "--disable-backgrounding-occluded-windows", "--disable-translate", "--disable-popup-blocking", "--no-first-run", "--no-default-browser-check", "--disable-logging", "--disable-autofill", "--disable-plugins", "--disable-animations", "--disable-cache", "--user-data-dir=P:\\githubautoapplierlinkedin\\linkedin_auto_jobs_applier_with_AI\\chrome_profile", "--profile-directory=linkedin_profile"]}}}}
+2025-05-21 12:05:34,455 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:54509
+2025-05-21 12:05:35,227 - urllib3.connectionpool - DEBUG - http://localhost:54509 "POST /session HTTP/1.1" 200 0
+2025-05-21 12:05:35,227 - selenium.webdriver.remote.remote_connection - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"136.0.7103.114","chrome":{"chromedriverVersion":"136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842})","userDataDir":"P:\\githubautoapplierlinkedin\\linkedin_auto_jobs_applier_with_AI\\chrome_profile"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54512"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2dcde7308e10308e8a099197733de282"}} | headers=HTTPHeaderDict({'Content-Length': '898', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-05-21 12:05:35,227 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2025-05-21 12:06:35,135 - WDM - INFO - ====== WebDriver manager ======
+2025-05-21 12:06:36,151 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 12:06:36,153 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-05-21 12:08:00,384 - urllib3.connectionpool - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 11173
+2025-05-21 12:08:00,404 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 12:08:00,405 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
